@@ -1,6 +1,6 @@
 fastapi
 pymongo
-"uvicorn[standard]"==0.27.0
+"uvicorn[standard]"
 python-dotenv
 motor
 torch

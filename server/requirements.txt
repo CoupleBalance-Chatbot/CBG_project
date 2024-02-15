@@ -1,7 +1,0 @@
-fastapi
-pymongo
-"uvicorn[standard]"
-python-dotenv
-motor
-torch
-transformers

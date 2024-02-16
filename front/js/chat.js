@@ -5,7 +5,7 @@ back.addEventListener('click', (e)=>{ window.history.back();})
 // 질문리스트
 const list = document.getElementById('list')
 list.addEventListener('click', (e)=>{
-    window.location.href = '../list/list.html'
+    window.location.href = './list.html'
 })
 
 var queryString = window.location.search;
@@ -118,7 +118,7 @@ send.addEventListener('click', (e)=> {
                     chatbot.innerHTML = `
                     <div class="profile">
                         <div class="imgdiv">
-                            <img src="../images/boy.png" alt="roni" class="imgpro">
+                            <img src="./images/boy.png" alt="toni" class="imgpro">
                         </div>
                     </div>
                     <div class="chatbox">
@@ -147,7 +147,7 @@ send.addEventListener('click', (e)=> {
                 chatbot.innerHTML = `
                 <div class="profile">
                     <div class="imgdiv">
-                        <img src="../images/girl.png" alt="roni" class="imgpro">
+                        <img src="./images/girl.png" alt="roni" class="imgpro">
                     </div>
                 </div>
                 <div class="chatbox">

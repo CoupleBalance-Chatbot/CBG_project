@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // .qlist 클래스를 가진 요소가 있는 경우에만 처리
         if (qlistElement) {
             var dataId = qlistElement.id;
-            window.location.href = "../quiz/quiz.html?dataId=" + encodeURIComponent(dataId);
+            window.location.href = "./quiz.html?dataId=" + encodeURIComponent(dataId);
         }
     });
 });

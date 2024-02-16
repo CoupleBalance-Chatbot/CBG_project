@@ -30,21 +30,21 @@ try {
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('back').addEventListener('click', function() {
-        window.location.href = "../index/index.html";
+        window.location.href = "./index.html";
     });
 
     document.getElementById('inner-footer').addEventListener('click', function() {
-        window.location.href = "../list/list.html";
+        window.location.href = "./list.html";
     });
 
     document.querySelector('.container').addEventListener('click', function(event) {
         const targetId = event.target.closest('li')?.id;
 
         if (targetId === 'ok') {
-            window.location.href = `../chat/chat.html?dataId=${encodeURIComponent('ok')}&questionId=${encodeURIComponent(questionId)}`;  
+            window.location.href = `./chat.html?dataId=${encodeURIComponent('ok')}&questionId=${encodeURIComponent(questionId)}`;  
         }
         else if (targetId === 'no'){
-            window.location.href = `../chat/chat.html?dataId=${encodeURIComponent('no')}&questionId=${encodeURIComponent(questionId)}`; 
+            window.location.href = `./chat.html?dataId=${encodeURIComponent('no')}&questionId=${encodeURIComponent(questionId)}`; 
         }
     });
 });

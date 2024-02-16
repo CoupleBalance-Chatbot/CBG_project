@@ -78,7 +78,7 @@ function updateUI(data, dataId) {
                     <p>당신의 선택은?</p>
                 </div>
                 <div>
-                    <p class="content">${start}<br>${end}</p>
+                    <p class="content">${start}${end}</p>
                 </div>
                 <div class="select">
                     <ul>
@@ -120,7 +120,7 @@ function updateUI(data, dataId) {
                     <p>당신의 선택은?</p>
                 </div>
                 <div>
-                    <p class="content">${start}<br>${end}</p>
+                    <p class="content">${start}${end}</p>
                 </div>
                 <div class="select">
                     <ul>

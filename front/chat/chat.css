@@ -40,11 +40,11 @@
 .user {padding: 0.3rem 0rem;}
 
 .profile {
+    width: 5rem;
+    height: 5rem;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
-    flex: 15%;
 }
-.chatbox { flex: 85%;}
 
 .imgdiv {
     border-radius: 10rem;
@@ -56,6 +56,10 @@
     text-align: left;
     font-size: 1.2rem;
 }
+
+/* .test {
+    width: 0;
+} */
 
 .contentC {
     padding: 0.8rem 1rem;

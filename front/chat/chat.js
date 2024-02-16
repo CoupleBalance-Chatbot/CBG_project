@@ -59,6 +59,15 @@ function make_chatbot(dataId){
 
 // 전송버튼 클릭
 const send = document.getElementById('send')
+
+// Enter 키 입력 이벤트 처리
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        send.click();
+    }
+});
+
 send.addEventListener('click', (e)=> {
     // 전송 버튼 비활성화
     send.disabled = true;

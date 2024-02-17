@@ -100,7 +100,7 @@ send.addEventListener('click', (e)=> {
             // const jsonData = JSON.stringify(formData)
     
             if(dataId === 'no'){
-                fetch(`http://127.0.0.1:8000/chat_no`, {
+                fetch(`http://3.133.40.61:8000/chat_no`, {
                     method: 'post',
                     headers: {
                         'Content-Type': 'application/json'
@@ -129,7 +129,7 @@ send.addEventListener('click', (e)=> {
                     chatting.scrollTop = chatting.scrollHeight;
                 })
             }else if(dataId === 'ok'){
-                fetch(`http://127.0.0.1:8000/chat_ok`, {
+                fetch(`http://3.133.40.61:8000/chat_ok`, {
                 method: 'post',
                 headers: {
                     'Content-Type': 'application/json'
